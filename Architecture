@@ -1,0 +1,3 @@
+Data Source → Amazon S3 → AWS Glue (PySpark ETL)
+→ Apache Airflow Orchestration → Amazon Redshift
+→ Analytics Dashboard
