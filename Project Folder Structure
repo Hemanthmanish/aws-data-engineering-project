@@ -1,0 +1,17 @@
+aws-real-time-data-pipeline
+│
+├── data
+│   ├── sales_data.csv
+│   ├── customer_data.csv
+│
+├── airflow
+│   ├── sales_pipeline_dag.py
+│
+├── etl
+│   ├── glue_etl_job.py
+│
+├── sql
+│   ├── create_tables.sql
+│   ├── analytics_queries.sql
+│
+└── README.md
