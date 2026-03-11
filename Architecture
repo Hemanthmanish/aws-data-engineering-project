@@ -1,3 +1,11 @@
-Data Source → Amazon S3 → AWS Glue (PySpark ETL)
-→ Apache Airflow Orchestration → Amazon Redshift
-→ Analytics Dashboard
+Data Source
+   ↓
+Amazon S3 (Raw Layer)
+   ↓
+AWS Glue (ETL Processing)
+   ↓
+AWS Glue Data Catalog
+   ↓
+Amazon Athena (Query Layer)
+   ↓
+Amazon QuickSight (Visualization)
