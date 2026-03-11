@@ -1,1 +1,12 @@
-End-to-end AWS Data Engineering pipeline built using S3, Glue, PySpark, Airflow, and Redshift to process large-scale sales datasets and enable analytics.
+aws-data-engineering-project
+│
+├── data
+│   ├── raw_data.csv
+│
+├── scripts
+│   ├── glue_etl.py
+│
+├── queries
+│   ├── athena_queries.sql
+│
+└── README.md
